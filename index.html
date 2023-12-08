@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitelist Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Whitelist Application Form</h1>
+    </header>
+
+    <section id="whitelist-form">
+        <h2>Submit a Whitelist Application</h2>
+        <form action="#" method="post" id="whitelistForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="characterName">Character Name:</label>
+            <input type="text" id="characterName" name="characterName" required>
+
+            <label for="reason">Reason for Whitelist:</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Submit Whitelist Application</button>
+        </form>
+    </section>
+
+    <section id="result">
+        <!-- Result will be displayed here -->
+    </section>
+
+    <footer>
+        &copy; 2023 Whitelist Application. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
